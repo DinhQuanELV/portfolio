@@ -10,3 +10,8 @@
 body {
   font-family: 'Quicksand', sans-serif;
 }
+
+html,
+body {
+  @apply bg-light dark:bg-dark text-blackText dark:text-whiteText toggle-mode-transition;
+}

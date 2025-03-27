@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-light dark:bg-dark text-blackText dark:text-whiteText toggle-mode-transition flex flex-col items-center justify-center">
+    <div className="flex max-w-[1440px] flex-col items-center justify-center">
       <Header />
       <main>
         <Home />
