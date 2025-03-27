@@ -4,12 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'bg-light': '#f3f3f3',
-        'bg-dark': '#222222',
-        'text-light': '#eeeeee',
-        'text-dark': '#111111',
-        'border-light': '#cccccc',
-        'border-dark': '#cccccc',
+        light: '#f3f0eb',
+        dark: '#1f2121',
+        whiteText: '#eeeeee',
+        blackText: '#111111',
+        primaryBorder: '#cccccc',
       },
     },
   },

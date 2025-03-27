@@ -8,9 +8,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className="bg-light dark:bg-dark text-blackText dark:text-whiteText toggle-mode-transition flex flex-col items-center justify-center">
       <Header />
-      <main className="bg-slate-200 dark:bg-slate-600">
+      <main>
         <Home />
         <AboutMe />
         <Skills />
