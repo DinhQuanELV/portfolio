@@ -1,11 +1,8 @@
-import { useDarkMode } from '../hooks/useDarkMode';
-
 import logoDark from '../assets/dqelv-logo-dark.png';
 import logoLight from '../assets/dqelv-logo-light.png';
+import ToggleButton from './ToggleButton';
 
 const Header = () => {
-  const { darkMode, handleToggleTheme } = useDarkMode();
-
   return (
     <header
       className="toggle-mode-transition
@@ -46,9 +43,7 @@ const Header = () => {
           <button className="btn">Projects</button>
           <button className="btn">Contact</button>
         </div>
-        <button className="" onClick={handleToggleTheme}>
-          {darkMode ? 'btn' : 'btn'}
-        </button>
+        <ToggleButton />
       </div>
     </header>
   );
