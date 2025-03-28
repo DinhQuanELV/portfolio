@@ -8,9 +8,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="flex max-w-[1440px] flex-col items-center justify-center">
+    <div className="m-auto flex max-w-[1440px] flex-col items-center justify-center px-16">
       <Header />
-      <main>
+      <main className="h-[1000px]">
         <Home />
         <AboutMe />
         <Skills />
